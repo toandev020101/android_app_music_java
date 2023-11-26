@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MusicApp</string>
+    <string name="main_title_hint">Phát từ</string>
+    <string name="main_playList_name">PlayList</string>
+    <string name="main_song_name">Tên bài hát</string>
+    <string name="main_author_name">Tên tác giả</string>
+    <string name="main_time_current">0:00</string>
+    <string name="main_duration">0:00</string>
+    <string name="main_btnPlayPause_desc">btnPlayPause</string>
+    <string name="main_btnNext_desc">btnNext</string>
+    <string name="main_btnPrev_desc">btnPrev</string>
+    <string name="main_btnSync_desc">btnSync</string>
+    <string name="main_btnPlayList_desc">btnPlayList</string>
+    <string name="main_btnHeart_desc">btnHeart</string>
+    <string name="music_list_title">Danh sách phát</string>
+    <string name="music_btnClose_desc">btnClose</string>
+    <string name="music_item_name">Light It Up</string>
+    <string name="music_item_author">feat. Jex</string>
+    <string name="music_item_duration">00:00</string>
+</resources>

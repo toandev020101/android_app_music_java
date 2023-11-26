@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    tools:context=".MusicListActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClose"
+            style="@style/Widget.Material3.Button.IconButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/music_btnClose_desc"
+            android:drawableLeft="@drawable/chevron_left_icon" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60sp"
+            android:layout_weight="1"
+            android:text="@string/music_list_title"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvMusicList"
+        android:layout_width="409dp"
+        android:layout_height="825dp" />
+
+</LinearLayout>

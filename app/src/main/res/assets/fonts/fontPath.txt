@@ -1,0 +1,6 @@
+DancingScript.ttf
+Ephesis.ttf
+Montserrat.ttf
+Pacifico.ttf
+PlayfairDisplay.ttf
+SpaceGrotesk.ttf
